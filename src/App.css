@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,26 +13,165 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+* {
+  font-family: "Rubik", sans-serif
 }
 
-.App-link {
-  color: #61dafb;
+.btn-1 {
+  background-color: red !important;
+  color: white !important;
+  border: 2px solid red !important;
+  transition-property: all !important;
+  transition-duration: 1s !important;
+  position: relative !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-1:hover {
+  background-color: white !important;
+  color: red !important;
+  margin-bottom: 5px;
+
+}
+
+.bgImage {
+  background: url(./images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bgGradient {
+  background: linear-gradient(to right, #512da8, #711e72);
+  opacity: 0.9;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.header-h1 {
+  margin-top: 230px;
+
+}
+
+.icon-1 {
+  font-size: 70px;
+  margin-top: 10px;
+  color: red;
+}
+
+.emptyDiv {
+  background-color: red;
+  margin: 15px auto;
+  width: 50px;
+  height: 2px;
+}
+
+.hover-effect{
+  transition: all 4s ease-in;
+  cursor: pointer;
+}
+
+.iconServices {
+  border: 2px solid white;
+  color: red;
+  border-radius: 50%;
+  font-size: 40px !important;
+}
+
+.featuretext {
+  margin-top: 8%;
+  color: black;
+}
+
+.iconfeatures {
+  font-size: 10px;
+  color: red;
+
+}
+
+.btn-2:hover {
+  background-color: white !important;
+  color: red !important;
+
+}
+
+.imgFeature {
+  margin-top: 60px;
+}
+
+.bgDisc {
+  background: url(./images/img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-Gradient{
+  background:linear-gradient(to right , #512da8, #711e72) ;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.header1-h1{
+  padding-top: 230px;
+}
+
+.pricingPara{
+   margin-top: 50px;
+}
+
+.textRed{
+  color: red;
+}
+
+.people p{
+  font-size: 12px;
+}
+.user1{
+  position: relative;
+  bottom: 30px;
+  width: 70px;
+}
+
+.bg-img3{
+  background: url('./images/bg-image-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-Gradient{
+  background:linear-gradient(to right , #512da8, #711e72) ;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.readBlog:hover{
+  color: black;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.h4Blog:hover{
+  color: red;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.iconsFooter{
+  color: gray;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.phoneicon{
+  color: gray;
 }
